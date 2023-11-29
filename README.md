@@ -12,7 +12,7 @@ Polo Centro - Palhoça – SC
 
 No final do exercício, o aluno terá criado um servidor Java baseado em Socket, com acesso ao banco de dados via JPA, além de utilizar os recursos nativos do Java para implementação de clientes síncronos e assíncronos. As Threads serão usadas tanto no servidor, para viabilizar múltiplos clientes paralelos, quanto no cliente, para implementar a resposta assíncrona.
 
-### 1º Procedimento | Criando o Servidor e Cliente de Teste#
+### 1º Procedimento | Criando o Servidor e Cliente de Teste
 
 #### Cadastro Server
 ```java
@@ -59,7 +59,7 @@ public class CadastroServer {
         return "usuario".equals(login) && "senha123".equals(senha);
     }
 }
-
+```
 #### Cadastro Client
 ```java
 
@@ -100,7 +100,7 @@ public class CadastroClient {
     }
 }
 
-
+```
 ## Como funcionam as classes Socket e ServerSocket?
 
 O `ServerSocket` é usado no lado do servidor para esperar por conexões, enquanto o `Socket` é usado no lado do cliente e servidor para estabelecer a conexão. O `ServerSocket` aguarda conexões em uma porta específica e cria um novo `Socket` para cada conexão aceita. Ambos os lados podem obter fluxos de entrada/saída para trocar dados. Essas classes são essenciais para a comunicação TCP em redes.
@@ -157,6 +157,7 @@ public class CadastroClient {
         }
     }
 }
+```
 ## Utilização de Threads para Tratamento Assíncrono
 
 ### Como as Threads podem ser utilizadas para o tratamento assíncrono das respostas enviadas pelo servidor?
