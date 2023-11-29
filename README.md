@@ -12,7 +12,7 @@ Polo Centro - Palhoça – SC
 
 No final do exercício, o aluno terá criado um servidor Java baseado em Socket, com acesso ao banco de dados via JPA, além de utilizar os recursos nativos do Java para implementação de clientes síncronos e assíncronos. As Threads serão usadas tanto no servidor, para viabilizar múltiplos clientes paralelos, quanto no cliente, para implementar a resposta assíncrona.
 
-### 1º Procedimento | Criando o Servidor e Cliente de Teste
+### 1º Procedimento | Criando o Servidor e Cliente de Teste#
 
 #### Cadastro Server
 ```java
